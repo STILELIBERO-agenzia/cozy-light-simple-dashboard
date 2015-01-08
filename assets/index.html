@@ -25,10 +25,12 @@
             margin-top: 0; 
             font-weight: normal; 
             font-size: 36px; 
+            color:#FFF;
           } 
           h2 { 
             font-weight: normal; 
             margin-top: 60px; 
+            color:#FFF;
           } 
  
           .logo { 
@@ -45,30 +47,38 @@
             font-weight: bold; 
             Text-decoration: none; 
             color: black; 
+            color:#FFF;
           } 
           a:hover { 
             color: orange; 
+            color:#FFF;
           } 
           a:visited { 
             color: black; 
+            color:#FFF;
           } 
           .app-line span { 
             font-family: signika 
             text-transform: normal; 
-            font-size: 14px; 
+            font-size: 14px;
+            color:#FFF;
           } 
+          p {
+            color:#FFF;
+          }
+          
         </style> 
     </head> 
     <body> 
         <a href='http://cozy.io' target='_blank'> 
             <img class='logo' src='happycloud.png' /> 
         </a>  
-        <h1>Cozy Light</h1> 
-        <h2>Your applications</h2> 
+        <h1>Cloud Server</h1> 
+        <h2>Applicazioni:</h2> 
         <div class="application-list">
         </div>
-        <h2>Resources</h2>
-        <p>Occupied memory: <span class="memory-value"></span>MB</p>
+        <h2>Risorse:</h2>
+        <p>Memoria occupata: <span class="memory-value"></span>MB</p>
         <script>
 var MINI = require('minified');
 var $ = MINI.$, HTML = MINI.HTML;
